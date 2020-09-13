@@ -14,3 +14,7 @@ export EDITOR='subl -w'
 
 # pacman hook sends USR1 to all shells to trigger reload.
 TRAPUSR1() { rehash }
+
+# deno.
+export DENO_INSTALL="/home/sam/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
