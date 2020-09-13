@@ -11,3 +11,6 @@ export PATH=$PATH:$HOME/go/bin
 
 # well-known ENV.
 export EDITOR='subl -w'
+
+# pacman hook sends USR1 to all shells to trigger reload.
+TRAPUSR1() { rehash }
