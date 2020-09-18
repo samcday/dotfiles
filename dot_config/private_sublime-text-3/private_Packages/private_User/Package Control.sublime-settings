@@ -1,5 +1,8 @@
 {
 	"bootstrapped": true,
-	"installed_packages": [
+	"installed_packages":
+	[
+		"Package Control",
+		"Theme - Spacegray"
 	]
 }
