@@ -21,3 +21,6 @@ TRAPUSR1() { rehash }
 # deno.
 export DENO_INSTALL="/home/sam/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# personal-infra ansible password
+export ANSIBLE_VAULT_PASSWORD_FILE=$HOME/.personal_infra_ansible_vault_pass
