@@ -6,3 +6,7 @@ Host *
 
 Host chonk.samcday.com
   Hostname 192.168.250.1
+
+Host u243008.your-storagebox.de
+  User u243008
+  Port 23
