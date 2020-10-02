@@ -1,18 +1,30 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Spacegray.sublime-theme",
 	"binary_file_patterns":
 	[
-		"*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds",
-		"*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
 		"node_modules/**",
 		"bower_components/**",
 		"chroot-dom0-archlinux/**",
 		"chroot-dom0-fc32/**",
 		"chroot-vm-archlinux/**"
-	]
+	],
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Spacegray.sublime-theme"
 }
