@@ -1,0 +1,2 @@
+#!/bin/sh
+systemctl --user start --wait i3-wm.service
