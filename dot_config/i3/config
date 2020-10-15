@@ -181,3 +181,4 @@ bar {
 }
 
 assign [class="firefoxdeveloperedition"] → 2
+exec firefox-developer-edition
