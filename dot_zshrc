@@ -1,3 +1,8 @@
+# sway autologin on tty1.
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+  exec systemd-cat --identifier=sway sway
+fi
+
 # oh-my-zsh.
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
