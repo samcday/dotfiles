@@ -1,0 +1,39 @@
+{
+    "layer": "bottom",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["battery", "idle_inhibitor", "temperature", "pulseaudio", "tray", "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format": "{:%F %H:%M:%S}",
+        "interval": 1,
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+    "pulseaudio": {
+	    "format": "{volume}% {icon}",
+	    "format-bluetooth": "{volume}% {icon}",
+	    "format-muted": "",
+	    "format-icons": {
+	        "headphone": "",
+	        "hands-free": "",
+	        "headset": "",
+	        "phone": "",
+	        "portable": "",
+	        "car": "",
+	        "default": ["", ""]
+	    },
+	    "scroll-step": 10,
+	},
+}
