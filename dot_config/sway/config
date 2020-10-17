@@ -73,4 +73,6 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+for_window [window_role="browser"] inhibit_idle fullscreen
+
 include /etc/sway/config.d/*
