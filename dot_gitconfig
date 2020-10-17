@@ -1,6 +1,9 @@
 [user]
-	email = me@samcday.com
-	name = Sam Day
+  email = me@samcday.com
+  name = Sam Day
 
 [core]
-	excludesFile = ~/.gitignore
+  excludesFile = ~/.gitignore
+
+[pull]
+  rebase = true
