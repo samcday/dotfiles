@@ -2,7 +2,7 @@
     "layer": "bottom",
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["battery", "idle_inhibitor", "temperature", "pulseaudio", "tray", "clock"],
+    "modules-right": ["battery", "idle_inhibitor", "temperature", "pulseaudio", "clock"],
     "sway/window": {
         "max-length": 50
     },
