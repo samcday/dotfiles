@@ -84,6 +84,6 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-for_window [window_role="browser"] inhibit_idle fullscreen
+for_window [app_id="firefox"] inhibit_idle fullscreen
 
 include /etc/sway/config.d/*
