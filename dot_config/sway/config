@@ -5,6 +5,11 @@ set $resize_incr 10px
 
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
+output "Goldstar Company Ltd 27GL850 911NTHM85065" {
+  adaptive_sync on
+  max_render_time 1
+}
+
 bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec $menu
