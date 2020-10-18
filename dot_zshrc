@@ -29,6 +29,7 @@ fi
 autoload -Uz compinit
 compinit
 
+export XDG_CURRENT_DESKTOP=Unity
 export MOZ_ENABLE_WAYLAND=1
 
 # sway autologin on tty1.
