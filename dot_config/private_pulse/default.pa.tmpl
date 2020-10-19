@@ -2,7 +2,7 @@
 
 load-module module-switch-on-connect
 
+{{- if eq .chezmoi.hostname "sam-desktop" }}
 # Disable the unused HDMI audio sink in my LG display.
-{{ if eq .chezmoi.hostname "sam-desktop" }}
 set-card-profile alsa_card.pci-0000_09_00.1 off
-{{ end }}
+{{- end }}
