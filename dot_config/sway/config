@@ -10,6 +10,10 @@ output "Goldstar Company Ltd 27GL850 911NTHM85065" {
   max_render_time 1
 }
 
+output "Apple Computer Inc Color LCD 0x00000000" {
+  scale 1.5
+}
+
 bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec $menu
