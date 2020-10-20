@@ -23,8 +23,8 @@ vcs_status() {
 
 whereami() {
     if [[ -n "${SSH_TTY}" ]]; then
-        echo "({{ trimPrefix "sam-" .chezmoi.hostname }})"
+        echo "({{ trimPrefix "sam-" .chezmoi.hostname }}) "
     fi
 }
 
-PROMPT='%2~ $(whereami)$(vcs_status)»%b '
+PROMPT='$(whereami)%2~ $(vcs_status)»%b '
