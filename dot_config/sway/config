@@ -92,6 +92,9 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+assign [app_id="firefox"] → 2
 for_window [app_id="firefox"] inhibit_idle fullscreen
 
 include /etc/sway/config.d/*
+
+exec firefox-developer-edition
