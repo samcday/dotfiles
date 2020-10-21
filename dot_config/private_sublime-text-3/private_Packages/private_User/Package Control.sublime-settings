@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"CTags",
 		"Ledger syntax highlighting",
 		"Package Control",
 		"Theme - Spacegray"
