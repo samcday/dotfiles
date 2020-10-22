@@ -34,6 +34,6 @@
 	        "car": "",
 	        "default": ["", ""]
 	    },
-	    "scroll-step": 10,
+	    "scroll-step": 5,
 	},
 }
