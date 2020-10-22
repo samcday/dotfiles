@@ -93,10 +93,19 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+bindsym Ctrl+Space exec dbus-send --session --print-reply --dest=net.launchpad.ulauncher \
+  /net/launchpad/ulauncher net.launchpad.ulauncher.toggle_window > /dev/null
+
+for_window [app_id="ulauncher"] {
+  border none
+  floating enable
+}
+
 assign [app_id="firefox"] → 2
 for_window [app_id="firefox"] inhibit_idle fullscreen
 
 exec mkfifo $SWAYSOCK.wob
 exec firefox-developer-edition
+exec ulauncher
 
 include /etc/sway/config.d/*
