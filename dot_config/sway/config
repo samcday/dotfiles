@@ -101,6 +101,10 @@ for_window [app_id="ulauncher"] {
   floating enable
 }
 
+for_window [title="win0" class="jetbrains-clion"] {
+  floating enable
+}
+
 assign [app_id="firefox"] → 2
 for_window [app_id="firefox"] inhibit_idle fullscreen
 
