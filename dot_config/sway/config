@@ -12,6 +12,13 @@ output "Apple Computer Inc Color LCD 0x00000000" {
   scale 1.5
 }
 
+input type:touchpad {
+  # Doing this specifically for my Macbook SPI touchpad
+  # But I think I'd prefer this on any kind of touchpad.
+  accel_profile adaptive
+  natural_scroll enabled
+}
+
 bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec $menu
