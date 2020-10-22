@@ -1,0 +1,10 @@
+[Unit]
+PartOf=sway-session.target
+
+[Service]
+Type=simple
+ExecStart=sh -c 'tail -f $SWAYSOCK.wob | wob'
+Restart=on-failure
+
+[Install]
+WantedBy=sway-session.target
