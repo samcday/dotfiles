@@ -1,4 +1,6 @@
 [Unit]
+After=sway-session.target
+Requires=sway-session.target
 PartOf=sway-session.target
 
 [Service]
