@@ -6,3 +6,7 @@ load-module module-switch-on-connect
 # Disable the unused HDMI audio sink in my LG display.
 set-card-profile alsa_card.pci-0000_09_00.1 off
 {{- end }}
+
+load-module module-native-protocol-tcp
+load-module module-zeroconf-publish
+load-module module-zeroconf-discover
