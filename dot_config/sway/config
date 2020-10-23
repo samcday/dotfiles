@@ -106,7 +106,10 @@ for_window [title="win0" class="jetbrains-clion"] {
 }
 
 assign [instance="chromium"] → 2
-for_window [instance="chromium"] inhibit_idle fullscreen
+for_window [instance="chromium"] {
+  inhibit_idle fullscreen
+  border none
+}
 
 exec mkfifo $SWAYSOCK.wob
 exec chromium
