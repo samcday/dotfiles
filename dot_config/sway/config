@@ -105,10 +105,10 @@ for_window [title="win0" class="jetbrains-clion"] {
   floating enable
 }
 
-assign [app_id="firefox"] → 2
-for_window [app_id="firefox"] inhibit_idle fullscreen
+assign [instance="chromium"] → 2
+for_window [instance="chromium"] inhibit_idle fullscreen
 
 exec mkfifo $SWAYSOCK.wob
-exec firefox-developer-edition
+exec chromium
 
 include /etc/sway/config.d/*
