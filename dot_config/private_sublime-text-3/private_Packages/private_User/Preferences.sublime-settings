@@ -22,6 +22,8 @@
 	],
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"font_size": 14,
+	"tab_size": 2,
+	"use_tab_stops": false,
 	"ignored_packages":
 	[
 		"Vintage"
