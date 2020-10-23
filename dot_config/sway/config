@@ -111,6 +111,8 @@ for_window [instance="chromium"] {
   border none
 }
 
+assign [instance="element"] → 9 
+
 exec mkfifo $SWAYSOCK.wob
 exec chromium
 exec element-desktop
