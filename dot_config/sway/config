@@ -124,6 +124,9 @@ for_window [instance=element] {
   move window to workspace 9
 }
 
+for_window [app_id=spotify-qt] floating enable
+
+
 exec mkfifo $SWAYSOCK.wob
 exec chromium
 exec element-desktop
