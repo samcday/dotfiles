@@ -7,3 +7,12 @@
 
 [pull]
   rebase = true
+
+[sendemail]
+  smtpServer = chonk.wgme
+  smtpUser = samcday
+  smtpserverport = 1025
+  smtpEncryption = none
+
+[credential]
+  helper = /usr/lib/git-core/git-credential-libsecret
