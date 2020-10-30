@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"CTags",
+		"Jinja2",
 		"Ledger syntax highlighting",
 		"Package Control",
 		"Theme - Spacegray"

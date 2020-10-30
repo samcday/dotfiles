@@ -21,6 +21,7 @@
 		"chroot-vm-archlinux/**"
 	],
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"font_face": "Jetbrains Mono",
 	"font_size": 14,
 	"tab_size": 2,
 	"use_tab_stops": false,
