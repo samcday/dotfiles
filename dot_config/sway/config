@@ -112,7 +112,7 @@ for_window [title=win0 class=jetbrains-clion] {
   floating enable
 }
 
-for_window [instance=chromium] {
+for_window [app_id=firefoxdeveloperedition] {
   inhibit_idle fullscreen
   border none
   move window to workspace 2
@@ -126,9 +126,8 @@ for_window [instance=element] {
 
 for_window [app_id=spotify-qt] floating enable
 
-
 exec mkfifo $SWAYSOCK.wob
-exec chromium
+exec firefoxdeveloperedition
 exec element-desktop
 exec_always 'sleep 5; swaymsg for_window [instance=chromium] focus_on_window_activation focus'
 exec_always 'setrandom ~/.local/share/backgrounds'
