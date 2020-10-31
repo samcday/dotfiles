@@ -2,6 +2,7 @@ set $mod Mod4
 set $term alacritty
 set $menu bemenu-run
 set $resize_incr 10px
+set $browser firefox
 
 output "Goldstar Company Ltd 27GL850 911NTHM85065" {
   adaptive_sync on
@@ -112,7 +113,7 @@ for_window [title=win0 class=jetbrains-clion] {
   floating enable
 }
 
-for_window [app_id=firefox] {
+for_window [app_id=$browser] {
   inhibit_idle fullscreen
   border none
   move window to workspace 2
@@ -126,7 +127,7 @@ for_window [instance=element] {
 for_window [app_id=spotify-qt] floating enable
 
 exec mkfifo $SWAYSOCK.wob
-exec firefoxdeveloperedition
+exec $browser
 exec element-desktop
 exec_always 'setrandom ~/.local/share/backgrounds'
 
