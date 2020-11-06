@@ -4,8 +4,9 @@ Host *
   ControlPersist yes
   ControlPath ~/.ssh/sockets/socket-%r@%h:%p
 
-Host chonk.samcday.com
+Host chonk.samcday.com chonk.wgme chonk
   Hostname 192.168.250.1
+  RemoteForward /run/user/1000/gnupg/S.gpg-agent /run/user/%i/gnupg/S.gpg-agent.extra
 
 Host u243008.your-storagebox.de
   User u243008
