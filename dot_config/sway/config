@@ -25,6 +25,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec $menu
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+l exec loginctl lock-session
+bindsym Print exec grimshot copy
 
 floating_modifier $mod normal
 
