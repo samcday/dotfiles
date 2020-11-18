@@ -8,6 +8,9 @@
 [pull]
   rebase = true
 
+[push]
+  default = current
+
 [sendemail]
   smtpServer = chonk.wgme
   smtpUser = samcday
