@@ -20,14 +20,14 @@
 		"chroot-dom0-fc32/**",
 		"chroot-vm-archlinux/**"
 	],
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"font_face": "Jetbrains Mono",
 	"font_size": 14,
-	"tab_size": 2,
-	"use_tab_stops": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Spacegray.sublime-theme"
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"use_tab_stops": false
 }
