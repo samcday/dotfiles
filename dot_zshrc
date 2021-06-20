@@ -32,6 +32,10 @@ fi
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
+# ccache
+export USE_CCACHE=1
+export CCACHE_EXEC=/usr/bin/ccach
+
 # completions
 autoload -Uz compinit
 compinit
