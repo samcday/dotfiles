@@ -119,11 +119,11 @@ for_window [app_id=firefox] {
   move window to workspace 2
 }
 
-for_window [instance=chromium] {
-  inhibit_idle fullscreen
-  border none
-  move window to workspace 2
-}
+#for_window [instance=chromium] {
+#  inhibit_idle fullscreen
+#  border none
+#  move window to workspace 2
+#}
 
 for_window [instance=element] {
   border none
