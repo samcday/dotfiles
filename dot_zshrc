@@ -50,3 +50,6 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
   exec systemd-cat --identifier=sway sway
 fi
 source /usr/share/nvm/init-nvm.sh
+
+# add Pulumi to the PATH
+export PATH=$PATH:$HOME/.pulumi/bin
