@@ -36,6 +36,13 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 export USE_CCACHE=1
 export CCACHE_EXEC=/usr/bin/ccach
 
+# pulumi
+export PATH=$PATH:$HOME/.pulumi/bin
+
+# fly.io
+export FLYCTL_INSTALL="/home/sam/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
 # completions
 autoload -Uz compinit
 compinit
@@ -50,6 +57,3 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
   exec systemd-cat --identifier=sway sway
 fi
 source /usr/share/nvm/init-nvm.sh
-
-# add Pulumi to the PATH
-export PATH=$PATH:$HOME/.pulumi/bin
