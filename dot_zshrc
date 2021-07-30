@@ -20,6 +20,10 @@ export EDITOR='subl -w -n'
 # pacman hook sends USR1 to all shells to trigger reload.
 TRAPUSR1() { rehash }
 
+export PATH=$PATH:$HOME/.pulumi/bin
+
+[[ -f $HOME/.localrc ]] && source $HOME/.localrc
+
 # deno.
 if [[ -d $HOME/.deno ]]; then
   # deno completions zsh > ~/.oh-my-zsh/custom/plugins/deno/_deno
