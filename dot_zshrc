@@ -47,6 +47,9 @@ export PATH=$PATH:$HOME/.pulumi/bin
 export FLYCTL_INSTALL="/home/sam/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
+# terraform
+export TF_PLUGIN_CACHE_DIR=$HOME/.terraform.d/plugin-cache
+
 # completions
 autoload -Uz compinit
 compinit
