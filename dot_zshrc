@@ -13,6 +13,7 @@ alias listening="sudo lsof -nP -iTCP -sTCP:LISTEN"
 # bin paths.
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:$HOME/.local/bin
 
 # well-known ENV.
 export EDITOR='vscodium -w'
