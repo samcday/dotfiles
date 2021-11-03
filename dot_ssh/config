@@ -7,9 +7,15 @@ Host *
   ServerAliveCountMax 3
 
 Host chonk.samcday.com chonk.wgme chonk
-  Hostname 192.168.250.1
+  HostName 192.168.250.1
   RemoteForward /run/user/1000/gnupg/S.gpg-agent /run/user/%i/gnupg/S.gpg-agent.extra
 
 Host u243008.your-storagebox.de
   User u243008
   Port 23
+
+Host localhost
+  HostName localhost
+  Port 2022
+  User dev
+  ForwardAgent yes
